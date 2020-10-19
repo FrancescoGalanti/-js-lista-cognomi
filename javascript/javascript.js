@@ -10,7 +10,7 @@
 
 // Push nome utente //
 
-array.push(prompt("Quale il tuo cognome ?"));
+array.push(prompt("Quale il tuo cognome ?").toLowerCase());
 
 // console.log(array);
 
