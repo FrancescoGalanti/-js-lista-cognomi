@@ -12,10 +12,28 @@
 
 array.push(prompt("Quale il tuo cognome ?"));
 
-console.log(array);
+// console.log(array);
 
 // alphabetic order //
+array.sort();
 
-array.sort(function(a,b);
 
-console.log(array.sort);
+// seconda variabile //
+
+var items = "";
+
+// output
+
+
+for(var i = 0; i < array.sort().length; i++) {
+   var item = array.sort()[i];
+
+   items += "<li>" + item + "</li>"
+}
+
+console.log(items)
+
+// terza variabile //
+var arrIndex = array.indexOf("galanti") + 1;
+
+console.log(arrIndex);
