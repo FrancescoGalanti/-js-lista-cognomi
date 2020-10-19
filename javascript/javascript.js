@@ -33,6 +33,8 @@ for(var i = 0; i < array.sort().length; i++) {
 
 console.log(items)
 
+document.getElementById('shopping-list'). innerHTML = items;
+
 // terza variabile //
 var arrIndex = array.indexOf("galanti") + 1;
 
